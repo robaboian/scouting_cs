@@ -1,5 +1,5 @@
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-from mplsoccer import Radar
-from matplotlib.patheffects import withStroke
+streamlit
+pandas
+matplotlib.pyplot
+mplsoccer
+matplotlib.patheffects
