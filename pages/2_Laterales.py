@@ -11,7 +11,7 @@ def load_data():
 
 # App principal
 def main():
-    st.set_page_config(page_title="Laterales", layout="wide")
+    st.set_page_config(page_title="Laterales")
     st.subheader("Laterales")
 
     df = load_data()
