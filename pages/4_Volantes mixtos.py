@@ -11,7 +11,7 @@ def load_data():
 
 # App principal
 def main():
-    st.set_page_config(page_title="Volantes mixtos", layout="wide")
+    st.set_page_config(page_title="Volantes mixtos")
     st.subheader("Volantes mixtos")
 
     df = load_data()
