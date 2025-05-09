@@ -11,7 +11,7 @@ def load_data():
 
 # App principal
 def main():
-    st.set_page_config(page_title="Volantes defensivos", layout="wide")
+    st.set_page_config(page_title="Volantes defensivos")
     st.subheader("Volantes defensivos")
 
     df = load_data()
