@@ -11,7 +11,7 @@ def load_data():
 
 # App principal
 def main():
-    st.set_page_config(page_title="Defensores centrales", layout="wide")
+    st.set_page_config(page_title="Defensores centrales")
     st.subheader("Defensores centrales")
 
     df = load_data()
