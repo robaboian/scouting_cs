@@ -37,9 +37,9 @@ def main():
     ["Sin asignar", "Lateral derecho (RB)", "Lateral izquierdo (LB)"])
 
     if opcion_lateral == "Lateral derecho (RB)":
-        df = df[df['Position'].str.contains('RB', na=False)]
+        df = df[df['Position'].str.contains('R', na=False)]
     elif opcion_lateral == "Lateral izquierdo (LB)":
-        df = df[df['Position'].str.contains('LB', na=False)]
+        df = df[df['Position'].str.contains('L', na=False)]
 
 
     # Filtro por país
