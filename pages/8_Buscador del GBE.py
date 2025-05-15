@@ -30,7 +30,6 @@ def get_random_headers():
     }
 
 # --- Input del usuario ---
-st.markdown("#### 🔍 Buscador")
 search_string = st.text_input("Ingresá el nombre de un jugador para consultar su elegibilidad GBE:")
 
 if search_string:
