@@ -42,10 +42,9 @@ atributos_por_puesto = {
 
 
 # --- Cargar CSV y preparar datos ---
-# --- Selección de puesto ---
 puestos = list(atributos_por_puesto.keys())
-puesto_seleccionado = st.selectbox("Seleccioná el puesto a analizar:", puestos)
-archivo = f"../data/{puesto_seleccionado}.csv"
+puesto_seleccionado = st.selectbox("Seleccioná el puesto:", puestos)
+archivo = f"data/{puesto_seleccionado.lower()}.csv"
 
 # --- Cargar CSV y preparar datos ---
 if os.path.exists(archivo):
