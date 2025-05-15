@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Configuración de la página
 st.set_page_config(page_title="Calculadora GBE", layout="centered")
-st.title("⚽ Calculadora GBE")
+st.title("### Calculadora GBE")
 
 load_dotenv()
 API_KEY = os.getenv("TRANSFERLAB_API_KEY")
