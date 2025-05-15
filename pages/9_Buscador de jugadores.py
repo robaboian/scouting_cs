@@ -42,7 +42,7 @@ atributos_por_puesto = {
 
 puestos = list(atributos_por_puesto.keys())
 puesto_seleccionado = st.selectbox("Seleccioná el puesto a analizar:", puestos)
-archivo = f"../data/{puesto_seleccionado}.csv"
+archivo = f"data/{puesto_seleccionado.lower()}.csv"
 
 
 # --- Cargar datos ---
