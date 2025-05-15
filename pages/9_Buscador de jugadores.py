@@ -4,7 +4,7 @@ import os
 
 # --- Configuración inicial ---
 st.set_page_config(page_title="Buscador por perfil")
-st.title("🎯 Buscador de jugadores por perfil")
+st.subheader("Buscador de jugadores por perfil")
 
 # --- Mapas de atributos por puesto ---
 atributos_por_puesto = {
