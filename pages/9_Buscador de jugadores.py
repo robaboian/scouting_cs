@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # --- Configuración inicial ---
-st.set_page_config(page_title="Buscador por perfil")
+st.set_page_config(page_title="Buscador por perfil", layout="wide")
 st.subheader("Buscador de jugadores por perfil")
 
 # --- Mapas de atributos por puesto ---
