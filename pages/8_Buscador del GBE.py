@@ -18,8 +18,8 @@ import random
 st.set_page_config(page_title="Calculadora GBE", layout="centered")
 st.title("⚽ Calculadora GBE")
 
-# API Key y URL
-API_KEY = "310feba7-30a0-4133-940a-72e85200e69a"
+load_dotenv()
+API_KEY = os.getenv("TRANSFERLAB_API_KEY")
 SEARCH_URL = "https://transferlabapi.lcp.uk.com/v2/players/searchGbe"
 
 # Lista de User-Agents para rotar
