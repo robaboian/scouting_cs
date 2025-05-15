@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 import streamlit as st
 import requests
 import pandas as pd
