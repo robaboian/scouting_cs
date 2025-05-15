@@ -3,4 +3,4 @@ pandas
 matplotlib
 mplsoccer
 python-dotenv
-sklearn.metrics.pairwise
+scikit-learn
