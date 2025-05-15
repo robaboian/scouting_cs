@@ -40,9 +40,9 @@ atributos_por_puesto = {
 
 # --- Selección del puesto ---
 
-
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))  # sube un nivel desde /pages
-archivo = os.path.join(BASE_DIR, "data", f"{puesto_seleccionado}.csv")
+puestos = list(atributos_por_puesto.keys())
+puesto_seleccionado = st.selectbox("Seleccioná el puesto a analizar:", puestos)
+archivo = f"../data/{puesto_seleccionado}.csv"
 
 
 # --- Cargar datos ---
